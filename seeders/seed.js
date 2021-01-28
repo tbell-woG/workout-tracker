@@ -121,6 +121,19 @@ let workoutSeed = [
         sets: 4
       }
     ]
+  },
+  {
+    day: new Date().setDate(new Date().getDate()-1),
+    exercises: [
+      {
+        type: "cardio",
+        name: "Bench Press",
+        duration: 40,
+        weight: 200,
+        reps: 10,
+        sets: 5
+      }
+    ]
   }
 ];
 

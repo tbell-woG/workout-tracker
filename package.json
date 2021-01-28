@@ -1,7 +1,7 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "workout-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application that allows a consumer to obtain their fitness goals by tracking their workout progress.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "author": "",
+  "author": "Tamira Bell",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
